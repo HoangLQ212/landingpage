@@ -1,0 +1,44 @@
+@import '_container.scss';
+
+@media screen and (max-width: 768px) {
+    header {
+        .carousel-item {
+            img {
+                height: 400px !important;
+            }
+        }
+    }
+
+    .container-fluid {
+        header {
+            img {
+                height: 400px;
+            }
+        }
+
+        .container-lg {
+            .collection {
+                margin-bottom: 0;
+            }
+
+            .blog {
+                h5 {
+                    margin-top: 1em;
+                }
+
+                .blog-content-detail {
+                    margin-bottom: 1em;
+                }
+            }
+        }
+    }
+
+    footer {
+        .row {
+            .col-md-4 {
+                margin-top: 1em;
+                margin-bottom: 1em;
+            }
+        }
+    }
+}
