@@ -379,6 +379,9 @@ footer .row .col-md-4 .text span {
   header .carousel-item img {
     height: 400px !important;
   }
+  header .hotline {
+    font-size: 20px !important;
+  }
   .container-fluid header img {
     height: 400px;
   }
@@ -394,6 +397,13 @@ footer .row .col-md-4 .text span {
   footer .row .col-md-4 {
     margin-top: 1em;
     margin-bottom: 1em;
+  }
+}
+@media screen and (max-width: 530px) {
+  header .hotline {
+    font-size: 16px !important;
+    margin: 0 !important;
+    margin-left: 1em !important;
   }
 }
 * {

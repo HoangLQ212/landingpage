@@ -1,44 +1,59 @@
 @import '_container.scss';
 
 @media screen and (max-width: 768px) {
-    header {
-        .carousel-item {
-            img {
-                height: 400px !important;
-            }
-        }
+ header {
+  .carousel-item {
+   img {
+    height: 400px !important;
+   }
+  }
+
+  .hotline {
+   font-size: 20px !important;
+  }
+ }
+
+ .container-fluid {
+  header {
+   img {
+    height: 400px;
+   }
+  }
+
+  .container-lg {
+   .collection {
+    margin-bottom: 0;
+   }
+
+   .blog {
+    h5 {
+     margin-top: 1em;
     }
 
-    .container-fluid {
-        header {
-            img {
-                height: 400px;
-            }
-        }
-
-        .container-lg {
-            .collection {
-                margin-bottom: 0;
-            }
-
-            .blog {
-                h5 {
-                    margin-top: 1em;
-                }
-
-                .blog-content-detail {
-                    margin-bottom: 1em;
-                }
-            }
-        }
+    .blog-content-detail {
+     margin-bottom: 1em;
     }
+   }
+  }
+ }
 
-    footer {
-        .row {
-            .col-md-4 {
-                margin-top: 1em;
-                margin-bottom: 1em;
-            }
-        }
-    }
+ footer {
+  .row {
+   .col-md-4 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+   }
+  }
+ }
+}
+
+@media screen and (max-width: 530px) {
+ header {
+  .hotline {
+   font-size: 16px !important;
+   margin: 0 !important;
+   margin-left: 1em !important;
+  }
+ }
+
 }
